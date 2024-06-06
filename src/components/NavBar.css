@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divColor{
+    background-color: antiquewhite;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+}
+
+.navBar .img-til{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.navBar ul{
+    margin-left: 380px;
+    margin-top: 80px;
+}
+
+.navBar ul button{
+    border: none;
+    background-color: antiquewhite;
+    margin-left: 60px;
+}
+
+.navBar ul button:hover{
+    transform: scale(1.5);
+    transition: calc(2s);
+}
+
+.navBar ul button li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.div-img{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-car{
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+
+.p-Cart{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
