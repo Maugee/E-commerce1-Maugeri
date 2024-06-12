@@ -1,5 +1,4 @@
 import React from 'react'
-import car from "../img/cart-outline.svg"
 import { FaShoppingCart } from "react-icons/fa";
 
 

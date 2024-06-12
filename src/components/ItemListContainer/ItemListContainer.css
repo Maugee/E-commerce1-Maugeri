@@ -1,0 +1,64 @@
+.div-body{
+    background-color: rgb(24, 24, 24);
+    height: 150vh
+}
+
+.p-List{
+    padding-top: 50px;
+    font-size: 120px;
+    padding-left: 150px;
+    color: white;
+}
+
+.productos{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    border: 1px white solid;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.productos img{
+    border-radius: 10px;
+}
+
+.productos h3{
+    text-transform: uppercase;
+}
+
+.comida{
+    text-align: center;
+}
+
+.cantidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 5px;
+}
+
+.botones p {
+    margin-top: 2px;
+}
+
+.botones button{
+    background-color: rgb(37, 36, 36);
+    color: rgb(153, 153, 247);
+    padding: 1px 5px;
+}
+
+.agregar button{
+    background-color: rgb(37, 36, 36);
+    color: rgb(153, 153, 247);
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: .3125rem;
+}
